@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        app:srcCompat="@drawable/diamond_image" />
+        app:srcCompat="@drawable/diamond_image"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,6 +27,15 @@
         android:layout_centerHorizontal="true"
         android:text="@string/i_am_rich"
         android:textColor="@android:color/white"
-        android:textSize="50sp" />
+        android:textSize="50sp"
+        android:id="@+id/textView" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp" />
 
 </RelativeLayout>
