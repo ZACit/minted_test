@@ -44,6 +44,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/ratingBar"
         android:layout_centerHorizontal="true"
-        android:text="Button" />
+        android:text="Click to Detonate!" />
 
 </RelativeLayout>
